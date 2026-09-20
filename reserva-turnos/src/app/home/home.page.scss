@@ -1,0 +1,58 @@
+ion-toolbar {
+  --background: #e88bab;
+  --color: white;
+}
+
+h2 {
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.calendario {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+ion-datetime {
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+ion-item {
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+
+.disponible {
+  color: #2e9b58;
+  font-weight: bold;
+}
+
+.reservado {
+  color: #777777;
+  font-weight: bold;
+}
+
+.turno-reservado {
+  opacity: 0.6;
+  --background: #eeeeee;
+}
+
+.contador {
+  margin-top: 25px;
+  padding: 15px;
+  text-align: center;
+  background: #fbe4ec;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.sin-turnos {
+  margin-top: 20px;
+  padding: 15px;
+  text-align: center;
+  background: #eeeeee;
+  border-radius: 10px;
+  font-weight: bold;
+}
